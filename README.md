@@ -7,3 +7,4 @@
 - Создание public static class Sorting
 - Внутри статического класса создается статический метод сортировки public stattic void SortSelection, который на вход принимает массив
 - Далее выполняется цикл сортировки массива выбором
+- Отдельным файлом создается программа Infrastructure.cs для создания и вывода массива в структурном классе public static class Infrastructure
