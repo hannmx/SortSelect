@@ -1,7 +1,13 @@
 ﻿using static Sorting;
+using static Infrastructure;
 
-int[] array = {6, 9, 4, 2, 4, 1, 5};
+int[] array = CreateArray();
 
-Console.WriteLine($"[{String.Join(',', array)}]");
+PrintArray(array);
+
 SortSelection(array);
-Console.WriteLine($"[{String.Join(',', array)}]");
+
+PrintArray(array);
+
+
+
